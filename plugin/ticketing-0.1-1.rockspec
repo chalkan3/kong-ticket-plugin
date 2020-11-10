@@ -4,13 +4,13 @@ version = "0.1-1"
 
 supported_platforms = {"linux", "macosx"}
 source = {
-  url = "https://github.com/Kong/kong",
-  tag = "0.2.0"
+  url = "git://github.com/chalkan3/kong-ticket-plugin",
+  tag = "0.0.1"
 }
 
 description = {
   summary = "ticketing is a plugin for save user data between request.",
-  homepage = "https://github.com/Kong/kong",
+  homepage = "https://github.com/chalkan3/kong-ticket-plugin",
   license = "MIT"
 }
 
