@@ -1,4 +1,4 @@
-package = "kong-ticketing"
+package = "kong-O2B-ticketing"
 version = "0.0.1-0"
 
 
@@ -6,7 +6,7 @@ supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/chalkan3/kong-ticket-plugin",
   tag = "0.0.1",
-  dir = "kong-ticketing"
+  dir = "kong-O2B-ticketing"
 }
 
 description = {
@@ -20,7 +20,7 @@ dependencies = {
   "dkjson"
 }
 
-local pluginName = "ticketing"
+local pluginName = "kong-O2B-ticketing"
 build = {
   type = "builtin",
   modules = {
