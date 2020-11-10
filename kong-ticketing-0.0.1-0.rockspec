@@ -1,11 +1,12 @@
-package = "ticketing"
-version = "0.1-1"
+package = "kong-ticketing"
+version = "0.0.1-0"
 
 
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/chalkan3/kong-ticket-plugin",
-  tag = "0.0.1"
+  tag = "0.0.1",
+  dir = "kong-ticketing"
 }
 
 description = {
@@ -15,6 +16,8 @@ description = {
 }
 
 dependencies = {
+  "lua-cjson",
+  "dkjson"
 }
 
 local pluginName = "ticketing"
